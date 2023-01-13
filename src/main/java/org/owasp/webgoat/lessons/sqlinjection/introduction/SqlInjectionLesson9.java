@@ -44,8 +44,6 @@ import static org.hsqldb.jdbc.JDBCResultSet.TYPE_SCROLL_SENSITIVE;
 @AssignmentHints(value = {"SqlStringInjectionHint.9.1", "SqlStringInjectionHint.9.2", "SqlStringInjectionHint.9.3", "SqlStringInjectionHint.9.4", "SqlStringInjectionHint.9.5"})
 public class SqlInjectionLesson9 extends AssignmentEndpoint {
 
-
-
     private final LessonDataSource dataSource;
 
     public SqlInjectionLesson9(LessonDataSource dataSource) {
