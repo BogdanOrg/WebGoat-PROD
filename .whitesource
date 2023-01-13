@@ -21,6 +21,6 @@
   },
   "scanSettingsSAST": {
     "enableScan": "true",
-    "enableRemediation": "true"
+    "enableRemediation": "false"
   }
 }
