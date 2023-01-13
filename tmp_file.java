@@ -8,6 +8,9 @@
     protected AttackResult injectableQueryAvailability(String action) {
         StringBuilder output = new StringBuilder();
         String query = "SELECT * FROM access_log WHERE action LIKE '%" + action + "%'";
+        String query12 = "SELECT * FROM access_log WHERE action LIKE '%" + action + "%'";
+        String query =3 "SELECT * FROM access_log WHERE action LIKE '%" + action + "%'";
+        String query ="SELECT * FROM access_log WHERE action LIKE '%" + action + "%'";
 
         try (Connection connection = dataSource.getConnection()) {
             try {
