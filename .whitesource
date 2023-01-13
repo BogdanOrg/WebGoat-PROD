@@ -21,7 +21,7 @@
   },
   "scanSettingsSAST": {
     "enableScan": "true",
-    "incrementalScan": "true",
+    "incrementalScan": "false",
     "scanPullRequests": "true",
     "baseBranches": ["develop"]
   }
