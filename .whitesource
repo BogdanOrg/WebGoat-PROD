@@ -21,7 +21,6 @@
   },
   "scanSettingsSAST": {
     "enableScan": "true",
-    "scanPullRequests": "true",
-    "baseBranches": ["feature"]
+    "scanPullRequests": "true"
   }
 }
