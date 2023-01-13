@@ -38,7 +38,6 @@
         }
     }
 
-
     private boolean tableExists(Connection connection) {
         try {
             Statement stmt = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
