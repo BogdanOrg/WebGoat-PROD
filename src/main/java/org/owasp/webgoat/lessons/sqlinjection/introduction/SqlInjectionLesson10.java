@@ -53,6 +53,11 @@ public class SqlInjectionLesson10 extends AssignmentEndpoint {
         return injectableQueryAvailability(action_string);
     }
 
+    public void printLol() {
+        String tmp = "some str here";
+        tmp.toString();
+    }
+
     // some comment is added
     protected AttackResult injectableQueryAvailability(String action) {
         StringBuilder output = new StringBuilder();
