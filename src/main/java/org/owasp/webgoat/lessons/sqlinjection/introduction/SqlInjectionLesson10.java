@@ -53,10 +53,7 @@ public class SqlInjectionLesson10 extends AssignmentEndpoint {
         return injectableQueryAvailability(action_string);
     }
 
-    public void printLol() {
-        String tmp = "some str here";
-        tmp.toString();
-    }
+    public static final String PASSWORD_SALT_SIMPLE = "DeliberatelyInsecure1234";
 
     // some comment is added
     protected AttackResult injectableQueryAvailability(String action) {
