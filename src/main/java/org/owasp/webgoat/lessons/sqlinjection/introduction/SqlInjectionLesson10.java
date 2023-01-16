@@ -42,6 +42,7 @@ import java.sql.Statement;
 public class SqlInjectionLesson10 extends AssignmentEndpoint {
 
     private final LessonDataSource dataSource;
+    private final String tmp = "new str";
 
     public SqlInjectionLesson10(LessonDataSource dataSource) {
         this.dataSource = dataSource;
