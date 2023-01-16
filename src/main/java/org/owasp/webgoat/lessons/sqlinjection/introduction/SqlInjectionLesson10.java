@@ -57,6 +57,7 @@ public class SqlInjectionLesson10 extends AssignmentEndpoint {
 
     // some comment is added
     protected AttackResult injectableQueryAvailability(String action) {
+        String tmp = "is there a way not to fix anything?";
         StringBuilder output = new StringBuilder();
         String query = "SELECT * FROM access_log WHERE action LIKE '%" + action + "%'";
 
