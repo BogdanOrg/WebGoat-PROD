@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 public class VulnerableTaskHolder implements Serializable {
 
 	private static final long serialVersionUID = 2;
+    public String tmp = "adsfsf";
 
 	private String taskName;
 	private String taskAction;
