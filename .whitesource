@@ -6,17 +6,17 @@
     "baseBranches": []
   },
   "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "none",
+    "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
     "useMendCheckNames": true
   },
   "issueSettings": {
-    "minSeverityLevel": "NONE",
+    "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
   },
   "remediateSettings": {
     "workflowRules": {
-      "enabled": false
+      "enabled": true
     }
   },
   "scanSettingsSAST": {
