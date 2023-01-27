@@ -38,6 +38,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  */
 public class SqlInjectionLesson10Test extends SqlLessonTest {
 
+
+
+
     private String completedError = "JSON path \"lessonCompleted\"";
 
     @Test
