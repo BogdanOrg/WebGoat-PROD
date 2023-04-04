@@ -4,10 +4,10 @@
         "template": "",
         "exclusions": [],
         "timeouts": {
-            "perLanguage": 1,
-            "perFile": 1
+            "perLanguage": 480,
+            "perFile": 60
         },
-        "maxFileSize": 45,
+        "maxFileSize": 1024,
         "javaEngineGeneration": 2
     }
 }
