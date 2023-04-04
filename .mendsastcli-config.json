@@ -8,6 +8,6 @@
             "perFile": 60
         },
         "maxFileSize": 1024,
-        "runMendEngines": true
+        "javaEngineGeneration": 2
     }
 }
