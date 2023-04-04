@@ -20,7 +20,6 @@
     }
   },
   "scanSettingsSAST": {
-    "configMode": "LOCAL",
     "enableScan": "true",
     "scanPullRequests": "true"
   }
