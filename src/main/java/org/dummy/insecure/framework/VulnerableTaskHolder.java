@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
 
 @Slf4j
 //TODO move back to lesson
-public class VulnerableTaskHolder implements Serializable {
-    
+public class VulnerableTaskHolder implements Serializable {    
     
 	private static final long serialVersionUID = 2;
     
